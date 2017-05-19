@@ -1,0 +1,21 @@
+.image {
+  display: inline-block;
+  vertical-align: top;
+  position: relative;
+}
+.image img {
+  display: block;
+}
+.image .caption {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 2px;
+  position: absolute;
+  z-index: 2;
+  left: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+  text-align: center;
+  color: #fff;
+  font: 11px/16px Tahoma, sans-serif;
+}
